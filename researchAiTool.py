@@ -9,7 +9,7 @@ from io import BytesIO
 load_dotenv()
 
 # Configure Gemini
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyC-ePg2dcvG-HUea7RQO5DELUQAnj8yIzE")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --- Prompt Chain Functions ---
